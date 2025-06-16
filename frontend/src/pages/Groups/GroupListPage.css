@@ -1,0 +1,70 @@
+.groups-list-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.groups-list-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #262626;
+}
+
+.groups-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.group-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.group-card {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.group-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.group-card h2 {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+}
+
+.group-card p {
+    font-size: 0.9rem;
+    color: #8e8e8e;
+    margin-bottom: 15px;
+    height: 60px; /* Altura fixa para alinhar os cards */
+    overflow: hidden;
+}
+
+.group-card span {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #262626;
+}
+
+.header-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.create-group-btn {
+    background-color: #0095f6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
