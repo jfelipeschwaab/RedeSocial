@@ -1,0 +1,35 @@
+.comment-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.comment-profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-body {
+  background-color: #f0f2f5;
+  border-radius: 18px;
+  padding: 8px 12px;
+  flex: 1;
+}
+
+.comment-body p {
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.comment-body strong {
+  margin-right: 4px;
+}
+
+.comment-footer {
+  font-size: 0.75rem;
+  color: #8e8e8e;
+  margin-top: 4px;
+}

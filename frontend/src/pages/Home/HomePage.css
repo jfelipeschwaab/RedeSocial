@@ -1,0 +1,21 @@
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.feed {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-message, .no-posts-message {
+  font-size: 1.2rem;
+  color: #8e8e8e;
+  margin-top: 50px;
+}
