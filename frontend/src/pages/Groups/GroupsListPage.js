@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getAllGroups } from '../../api/groupApi';
 import { Link } from 'react-router-dom';
-import './GroupsListPage.css';
+import './GroupListPage.css';
 
 const GroupsListPage = () => {
     const [groups, setGroups] = useState([]);
