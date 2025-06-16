@@ -1,0 +1,85 @@
+.post-card {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.post-author strong {
+  font-weight: 600;
+}
+
+.post-date {
+  color: #8e8e8e;
+  font-size: 0.8rem;
+  display: block;
+}
+
+.post-content p {
+  padding: 0 16px 16px;
+  margin: 0;
+  white-space: pre-wrap; /* Mantém a formatação do texto como quebras de linha */
+}
+
+.content-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-placeholder {
+    background-color: #efefef;
+    text-align: center;
+    padding: 40px 16px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.video-placeholder a {
+    color: #00376b;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #efefef;
+  padding: 8px 0;
+}
+
+.footer-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #8e8e8e;
+  padding: 8px;
+  flex-grow: 1;
+}
+
+.footer-button:hover {
+  background-color: #f7f7f7;
+}
+
+.like-button {
+    color: #3897f0;
+}
+
+.dislike-button {
+    color: #ed4956;
+}
